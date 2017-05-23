@@ -7,6 +7,6 @@ function Person(name,age){
 Person.prototype={
 	constructor:Person,
 	introduce:function(){
-		alert( "My name is"+this.name+". "+"I am"+this.age+"years old.");
+		return "My name is"+this.name+". "+"I am"+this.age+"years old.";
 	}
 }
