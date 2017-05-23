@@ -7,7 +7,7 @@ function Student(name,age,klass){
 }
 Student.prototype = new Person();
 
-Studnet.prototype={
+Student.prototype={
 	constructor:Student,
 	introduce:function(){
 		Person.call(Student);
