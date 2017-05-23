@@ -11,8 +11,8 @@ Student.prototype={
 	constructor:Student,
 	introduce:function(){
 		Person.call(Student);
-		
-		return Student.introduce()+"I am at Class"+this.klass+". ";
+		Student.introduce();
+		alert("I am at Class"+this.klass+". ");
 	}
 	
 }
