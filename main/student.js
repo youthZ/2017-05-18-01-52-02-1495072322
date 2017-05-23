@@ -2,7 +2,7 @@ let Person = require('./person')
 // Write your code here
 module.exports = Student
 function Student(name,age,klass){
-	person.call(this,name,age);
+	Person.call(this,name,age);
 	this.klass = klass;
 }
 Student.prototype = new Person();
