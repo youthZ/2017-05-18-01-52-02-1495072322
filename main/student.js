@@ -7,9 +7,9 @@ function Student(name,age,klass){
 }
 Student.prototype = new Person();
 
-Student.prototype.constructor=Student
+Student.prototype.constructor=Student;
 Student.prototype.introduce=function(){
 		Person.call(Student);
 		
 		return Student.introduce()+" I am at Class "+this.klass+". " ;
-	}
+	};
