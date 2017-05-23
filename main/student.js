@@ -9,5 +9,5 @@ Student.prototype = new Person();
 
 Student.prototype.constructor =Student;
 Student.prototype.introduce =function(){
-		return "My name is "+this.name+". "+"I am "+this.age+" years old. I am a student. I am at Class "+Student.klass+"." ;
+		return "My name is "+this.name+". I am "+this.age+" years old. I am a Student. I am at Class "+Student.klass+".";
 	};
